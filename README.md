@@ -6,12 +6,6 @@ For this lab, you will learn a little more about using Git for version control, 
 
 You will play two different roles, one being the role of maintainer (receiving pull requests to your repo, reviewing them and giving feedback, and eventually accepting the pull request).  The other role will be that of a contributor to someone else's repo (your partner's, or my repo).
 
-## Prerequisites
-
-* Create a "labs" directory if you don't already have one by opening a terminal
-and typing:
-``mkdir ~/labs``
-
 ## Getting Started:
 - For this lab you will need to work as a team, so pick a partner.  You can work with more than one partner, but at least one partner is required.
 - There will be two parts to this lab.  The first part is for each team member to create an interview for your partners.  Your interview should have at least 3 questions.  The questions can be anything reasonable (please nothing offensive or overly personal - you should work with your partners to find something amenable to everyone if your partner would prefer not to answer one of your questions).
