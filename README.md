@@ -2,33 +2,42 @@
 
 ## Objective
 
-For this lab, you will learn a little more about using Git for version control, and using GitHub as your Git repository server.  Git can be used for versioning lots of things, not just software.
+For this lab, you will learn a little more about using Git for version control, and using 
+GitHub as your Git repository server.  Git can be used for versioning lots of things, not just 
+software.  One of the fundamental advantages of Git over other VCS is its distributed nature. 
+ You can maintain repositories in many ways and this lab will explore two popular options.
 
-You will play two different roles, one being the role of maintainer (receiving pull requests to your repo, reviewing them and giving feedback, and eventually accepting the pull request).  The other role will be that of a contributor to someone else's repo (your partner's, or my repo).
+You will play two different roles, one being the role of maintainer of a private repository
+(receiving pull requests to your repo, reviewing them and giving feedback, and eventually
+ accepting the pull request).  This style is common amongst enterprises, as they don't want to 
+ make their repositories public.
+  
+Your other role will be that of a contributor to someone else's public repo (my repo).  This 
+style is common amongst open source projects, where a wide range of contributors is desirable 
+and the whole point is to make the software publicly available.
 
 ## Getting Started:
-- For this lab you will need to work as a team, so pick a partner.  You can work with more than one partner, but at least one partner is required.
-- There will be two parts to this lab.  The first part is for each team member to create an interview for your partners.  Your interview should have at least 3 questions.  The questions can be anything reasonable (please nothing offensive or overly personal - you should work with your partners to find something amenable to everyone if your partner would prefer not to answer one of your questions).
+- There will be two parts to this lab.  
+  - The first part is for you to be a contributor to my "open source" project.  I will host an "interview" repo, and you will attempt to contribute your answers as a pull request.
+  - The second part is for you to be a maintainer of a private repository.  You will create a  private repo where you host an interview, and you will ask interview questions to me.  Your interview should have at least 3 questions.  The questions can be anything reasonable (please nothing offensive or overly personal).  You will then add me as a collaborator to your repository and will review my responses.
 
-## Interviewing Partners
+## Part One: You as the Contributor
+1. Part 1 of this lab involves you answering my interview questions.  I will send a link to my repo through BlackBoard.  You will answer the questions (formatting as I specify) and submit the answers as a pull request to my repo, following my instructions.
 
-1. First, you need to create the interview:
+## Part Two: You as the Maintainer
+
+1. First, you need to create an interview in a repo on GitHub:
     1. Once you've decided on your interview questions, you should create a subdirectory under the ``labs/`` directory called ``<username>-interview-lab`` where ``<username>`` is your CSCC username.  In that directory you should create an `Interview.md` markdown file.
         - [Markdown](https://daringfireball.net/projects/markdown/) is a standard syntax for marking up text with special characters to tell markdown renderers to render the text with special effects (like bold, italics, or font size). GitHub's markdown syntax is described [here](https://guides.github.com/features/mastering-markdown/), and you should use it as a reference to format your interview appropriately.  IntelliJ has markdown support, and when you push your markdown files to GitHub, it renders them appropriately so you can see what your users will see.  
         - Your interview should include instructions on how you want interviewees to include their responses (a couple examples could be inline as a list item, or by adding a separate ``<user>.md`` markdown file with a link in the ``Interview.md``).  
         - Whatever method you ask interviewees to respond _must_ involve updating your repo, and only updating your repo (no links to a SurveyMonkey, for example).
     1. When you're happy with your ``Interview.md`` you should use `git init` to make your `<username>-interview-lab` version controlled by Git, and then make an initial commit that includes your `Interview.md` markdown file.
     1. After you have committed your `Interview.md`, [upload your repository to GitHub](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line).
-1. With your repository uploaded to GitHub, send a link to it to your partner, and ask your partner to fill out your interview.  Your partner should submit their interview answers as a  [pull request](https://help.github.com/articles/creating-a-pull-request/).
-    - You _must_ review your partner's pull request, and suggest at least one change be made (it can be a grammar fix, formatting fix, asking for more info, etc.).  
-    - When you are happy with your partner's interview response, you should [merge their pull request](https://help.github.com/en/articles/merging-a-pull-request). 
-1.  Since you are doing this as a team, you will also be acting as an interviewee for your partner's interview question, so your roles will be reversed.  When your partner sends you their repo, you should submit your responses as a pull request for your partner to review.  Make the proposed changes and update the pull request.  Continue the process until your partner is happy and merges your pull request.
-
-## Answering my interview questions
-1. Part 2 of this lab involves you answering my interview questions.  I will send a link to my repo through BlackBoard.  You will answer the questions (formatting as I specify) and submit the answers as a pull request to my repo.  
+1. With your repository uploaded to GitHub, add me (`jschmersal-cscc`) [as a collaborator](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository), and send me an email (`jschmersal1@cscc.edu`) asking me to fill out your interview.  I will submit my interview answers as a [pull request](https://help.github.com/articles/creating-a-pull-request/).
+    - You _must_ review my pull request, and suggest at least one change be made (it can be a grammar fix, formatting fix, asking for more info, etc.).  Your suggestion needs to be made as part of the pull request workflow, not as a separate email.  This will give you an idea of how pull requests work.  
+    - When you are happy with ymy interview response, you should [merge my pull request](https://help.github.com/en/articles/merging-a-pull-request). 
 
 ## Submitting Your Work
-For part one of this lab, please e-mail me links to all partners' repos.  I will review your repos and pull requests to ensure you performed the steps outlined above.
-
-For part two, you are finished when I have merged your pull request into my repo.
+For this lab, please submit in Blackboard links to the two pull requests after they have been
+merged into their respective repositories.  Screenshots of each pull request dialog are also appreciated.
 
